@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>STOPWATCH</title>
+</head>
+<body>
+    ,<div class="STOPWATCH">
+        <div class="timerdisplay"> 00:00:00</div>
+    </div>
+
+    <div class="buttons">
+        <button id="startbutn" class="butn"  style="--clr:violet;">START</button>
+        <button id="resetbutn" class="butn"  style="--clr: darkblue;">RESET</button>
+        <button id="stopbutn" class="butn"  style="--clr:orange;">STOP</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
